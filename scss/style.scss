@@ -11,10 +11,12 @@ body {
 
   .jumbotron {
   	background-color: inherit;
+  	border: none;
 
   	.container {
   		h2 {
   			margin-bottom: 30px;
+  			color: #404448;
   		}
   	}
   }
