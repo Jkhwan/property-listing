@@ -16,7 +16,8 @@ body {
   margin-top: 100px; }
   .listing.container .jumbotron {
     opacity: 0.9;
-    padding: 0px; }
+    padding: 0px;
+    border-radius: 0px; }
     .listing.container .jumbotron .media {
       padding: 20px;
       font-size: 15px;
@@ -26,13 +27,25 @@ body {
         margin-right: 15px; }
       .listing.container .jumbotron .media h4 {
         padding: 10px 0 5px 0; }
-      .listing.container .jumbotron .media span.col-xs-6 {
+      .listing.container .jumbotron .media span {
         padding-left: 0px;
         margin-bottom: 10px; }
-  .listing.container ul li a {
-    padding-left: 30px; }
-    .listing.container ul li a:hover {
-      background-color: #bbb; }
+        .listing.container .jumbotron .media span .fa-money {
+          padding-right: 5px; }
+  .listing.container ul li {
+    margin-top: 0px; }
+    .listing.container ul li a {
+      padding-left: 30px;
+      border-radius: 0px; }
+      .listing.container ul li a:hover {
+        background-color: #bbb; }
 
 .navbar {
   box-shadow: 0px 2px #5e5e5e; }
+
+.modal, .modal.fade.in {
+  top: 11%;
+  /* was 10% */ }
+
+.modal-dialog img {
+  width: 100%; }
