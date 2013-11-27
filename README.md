@@ -5,6 +5,7 @@
 Property Listings Site
 
 Main Components
+
 1. Grid system and UI elements by Bootstrap
 2. bootswatch theme to enhance the design of the site
 3. Font-awesome icons
